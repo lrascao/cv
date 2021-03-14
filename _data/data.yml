@@ -7,184 +7,94 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Luis Rascão
+    tagline: Backend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: luis.rascao@gmail.com
+    phone: +351 912428086
+    website: lrascao.github.io
+    linkedin: lrascao
+    github: lrascao
+    twitter: '@lrascao'
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Tinkering
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Learning
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Working exclusively in backend since 2000, i started out as a developer in the telecomms industry building in C something very similar (in concept at least) to an Erlang VM. I jumped
+      over to the gaming industry where i helped build a lot of services that currently support the company's most important title. I'm a distributed systems nerd and i'll devour all papers you throw
+      my way on the subject. I care about code designed by humans for humans that make highly scalable and reliable systems a reality.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Computer Engineering
+      university: Instituto Superior Tecnico
+      time: 1994 - 1999
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Final thesis on Video Surveillance over ATM incorporating motion detection with connection hold/recover and remote camera control.
+
 experiences:
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      time: 2014 - Present
+      company: Miniclip, Lisbon
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Main work as lead backend developer of the company's major title, my duties involve operating a large cluster that support the online game, responding to incidents
+        while part of the on-call rotation, developing tools and researching new technologies that support and uplift the development teams.
+    - role: Software Engineer
+      time: 1999 - 2014
+      company: Altitude Software, Lisbon
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Core stuff, TCP/IP communication, protocol, networks, message passing. Built a shared memory allocator on Windows. Dabbled a bit with ASP.NET.
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I enjoy being involved in the open source community and currently maintain a few projects that i hope make a positive impact in people's lives.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: rebar3_appup_plugin
+        link: "https://github.com/lrascao/rebar3_appup_plugin"
+        tagline: "A rebar3 plugin that aims to reduce the friction of Erlang release upgrades"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: rebar3_gpb_plugin
+        link: "https://github.com/lrascao/rebar3_gpb_plugin"
+        tagline: "A rebar3 plugin for compiling/validating .proto files based on `gpb`"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: raterl
+        link: "https://github.com/lrascao/raterl"
+        tagline: "An ETS based rate limiter"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: rebar3_scuttler
+        link: "https://github.com/lrascao/rebar3_scuttler"
+        tagline: "Cuttlefish schema handler plugin"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    posts:
+      - title: Let's make release upgrades great again!
+        link: "https://www.youtube.com/watch?v=TRg4jxs0x-Q"
+        conference: EUC 2017
+      - title: K8s Erlang configuration
+        link: https://lrascao.github.io/k8s-erlang-configuration/
+      - title: K8s Erlang clustering
+        link: https://lrascao.github.io/k8s-erlang-clustering/
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+certifications:
+    title: Certifications
+    certifications:
+      - title: CKAD Certified Kubernetes Appliction Developer
+        link: "https://www.youracclaim.com/earner/earned/badge/25bb27eb-5b06-49f4-8bbb-cf2643c39554"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
