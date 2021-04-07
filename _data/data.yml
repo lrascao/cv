@@ -52,8 +52,8 @@ experiences:
       time: 2014 - Present
       company: Miniclip, Lisbon
       details: |
-        Main work as lead backend developer of the company's major title, my duties involve operating a large cluster that support the online game, responding to incidents
-        while part of the on-call rotation, developing tools and researching new technologies that support and uplift the development teams.
+        Main work as lead backend developer of the company's major title, my duties involve operating a large cluster that support the online game running 24/7 on AWS, responding to incidents
+        while part of the on-call rotation, developing tools, researching new technologies and implementing improvements that support and uplift the development teams.
     - role: Software Engineer
       time: 1999 - 2014
       company: Altitude Software, Lisbon
