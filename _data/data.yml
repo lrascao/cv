@@ -38,7 +38,7 @@ career-profile:
     summary: |
       Working exclusively in backend since 2000, i started out as a developer in the telecomms industry building in C something very similar (in concept at least) to an Erlang VM. I jumped
       over to the gaming industry where i helped build a lot of services that currently support the company's most important title. I'm a distributed systems nerd and i'll devour all papers you throw
-      my way on the subject. I care about code designed by humans for humans that make highly scalable and reliable systems a reality.
+      my way on the subject. I care about code and systems designed by humans for humans that make highly scalable and reliable systems a reality.
 
 education:
     - degree: MSc in Computer Engineering
@@ -58,7 +58,8 @@ experiences:
       time: 1999 - 2014
       company: Altitude Software, Lisbon
       details: |
-        Core stuff, TCP/IP communication, protocol, networks, message passing. Built a shared memory allocator on Windows. Dabbled a bit with ASP.NET.
+        As a backend developer i worked mainly on infrastructure development of the server component that handled the contact center agent interactions, heavily based on shared memory (the allocator of which i wrote) and inter-process communication.
+        I also helped implement more business related product features, business monitoring and reporting, kpi tracking.
 
 projects:
     title: Projects
