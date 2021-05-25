@@ -92,6 +92,10 @@ projects:
         link: "https://github.com/lrascao/rebar3_scuttler"
         tagline: "Cuttlefish schema handler plugin"
 
+      - title: go-dvvset
+        link: "https://github.com/lrascao/go-dvvset"
+        tagline: "Dotted Version Vectors Sets Go implementation"
+
 publications:
     title: Publications
     posts:
@@ -102,6 +106,8 @@ publications:
         link: https://lrascao.github.io/k8s-erlang-configuration/
       - title: K8s Erlang clustering
         link: https://lrascao.github.io/k8s-erlang-clustering/
+      - title: Yet another post about reducing golang docker image build times
+        link: https://lrascao.github.io/golang-docker-images/
 
 certifications:
     title: Certifications
