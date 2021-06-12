@@ -36,9 +36,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Working exclusively in backend since 2000, i started out as a developer in the telecomms industry building in C something very similar (in concept at least) to an Erlang VM. I jumped
+      Working exclusively in backend, i started out as a developer in the telecomms industry building in C something very similar (in concept at least) to an Erlang VM. I jumped
       over to the gaming industry where i helped build a lot of services that currently support the company's most important title. I'm a distributed systems nerd and i'll devour all papers you throw
-      my way on the subject. I care about code and systems designed by humans for humans that make highly scalable and reliable systems a reality. Besides Erlang/Elixir i also take an interest in Go and Rust. 
+      my way on the subject. I care about code and systems designed by humans for humans that make highly scalable and reliable systems a reality. Besides Erlang/Elixir/Golang i also take an interest in Rust. 
       On the operational side of things I'm experienced in Kubernetes (I hold the CKAD certification) and a lot of AWS experience (i'm currently studying for the AWS Associate Architect Certification).
       I consider myself a highly driven, high output, insatiable and fast learner with excellent people skills that would be a positive contribution to any team.
 
@@ -47,15 +47,14 @@ education:
       university: Instituto Superior Tecnico
       time: 1994 - 1999
       details: |
-        Final thesis on Video Surveillance over ATM incorporating motion detection with connection hold/recover and remote camera control.
+        Final thesis on Video Surveillance over ATM incorporating flow control and motion detection with connection hold/recover and remote camera control.
 
 experiences:
     - role: Lead Developer
       time: 2014 - Present
       company: Miniclip, Lisbon
       details: |
-        Main work as lead backend developer of the company's major title, my duties involve operating a large cluster that support the online game running 24/7 on AWS, responding to incidents
-        while part of the on-call rotation, developing tools, researching new technologies and implementing improvements that support and uplift the development teams.
+        Main work as lead backend developer of the company's major title, my duties development of product features, acting SRE, developing tools, researching new technologies and implementing improvements that support and uplift the development teams.
           - Countless product features
           - A distributed KV store meant to hold correspondence between users and respective session processes using version vectors to check causality.
           - Mobile attestation
@@ -67,8 +66,8 @@ experiences:
         As a backend developer i worked mainly on infrastructure development of the server component that handled the contact center agent interactions, heavily based on shared memory (the allocator of which i wrote) and inter-process communication.
         I also helped implement more business related product features, business monitoring and reporting, kpi tracking.
           - Shared memory allocator (custom slab allocator)
-          - Spidermonkey based custom expression generation
-          - Protoc/In house client/server stub code generation
+          - Spidermonkey based custom Javascript expression 
+          - Protobuf/in-house client/server stub code generation
           - RabbitMQ integration, both federated and local queues
 
 projects:
