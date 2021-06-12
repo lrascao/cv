@@ -55,10 +55,11 @@ experiences:
       company: Miniclip, Lisbon
       details: |
         Main work as lead backend developer of the company's major title, my duties development of product features, acting SRE, developing tools, researching new technologies and implementing improvements that support and uplift the development teams.
+          - Insuring flawless uptime of a cluster handling 1M peak concurrent players with a lot of auxilliary services.
           - Countless product features
           - A distributed KV store meant to hold correspondence between users and respective session processes using version vectors to check causality.
           - Mobile attestation
-          - AWS's DynamoDB, EC2, SNS, SQS, RDS, ASG, ALB/ELB
+          - Extensive use of AWS's DynamoDB, EC2, SNS, SQS, RDS, ASG, ALB/ELB
     - role: Software Engineer
       time: 1999 - 2014
       company: Altitude Software, Lisbon
