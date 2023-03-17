@@ -38,7 +38,7 @@ career-profile:
     summary: |
       Working exclusively in backend, i started out as a developer in the telecomms industry building in C something very similar (in concept at least) to an Erlang VM. I jumped
       over to the gaming industry where i helped build a lot of services that currently support the company's most important title, i'm currently involved in the crypto space where i see a lot of potential for innovation both
-      technical and business.  I'm a distributed systems nerd and i'll devour all papers you throw my way on the subject. I care about code and systems designed by humans for humans that make highly scalable and reliable systems a reality.
+      technical and business wise.  I'm a distributed systems nerd and i'll devour all papers you throw my way on the subject. I care about code and systems designed by humans for humans that make highly scalable and reliable systems a reality.
       Besides Erlang/Elixir/Golang i also take an interest in Rust. On the operational side of things I'm experienced in Kubernetes (I hold the CKAD certification) and a lot of AWS experience (i'm currently studying for the AWS Associate Architect Certification).
       I consider myself a highly driven, high output, insatiable and fast learner with excellent people skills that would be a positive contribution to any team.
 
@@ -50,8 +50,14 @@ education:
         Final thesis on Video Surveillance over ATM incorporating flow control and motion detection with connection hold/recover and remote camera control.
 
 experiences:
+    - role: Member of the technical staff
+      time: Mar 2022 - Present
+      company: Anchorage Digital
+      details: |
+        As a Software Developer i help the team building a scalable OMS (written in Go) as well as developing backoffice tools that support the Trading Desk. I'm also involved in some platform initiatives, namely improving observability/monitoring across our systems. Using GCP, Go, GraphQL, Cue, Istio, k8s.
+
     - role: Senior Software Developer
-      time: Aug 2021 - Present
+      time: Aug 2021 - Mar 2022
       company: Numeus, Switzerland
       details: |
         As a Software Developer i help the team building a high frequency algorithmic trading platform for multiple crypto exchanges (eg. Binance, Huobi, FTX, etc) in Go running on AWS K8s. Besides building cross-cutting platform functionalities
@@ -83,6 +89,10 @@ projects:
     intro: >
       I enjoy being involved in the open source community and currently maintain a few projects that i hope make a positive impact in people's lives.
     assignments:
+      - title: coredhcp-etcd
+        link: "https://github.com/lrascao/coredhcp-etcd"
+        tagline: "A coredhcp plugin that stores MAC/IP mappings in etcd on my home network"
+
       - title: rebar3_appup_plugin
         link: "https://github.com/lrascao/rebar3_appup_plugin"
         tagline: "A rebar3 plugin that aims to reduce the friction of Erlang release upgrades"
